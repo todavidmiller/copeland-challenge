@@ -1,0 +1,52 @@
+[{
+	"operation": "merge",
+	"sources": [
+		{
+			"file": "DeviceDataFoo1.json",
+			"transformation": "Foo1-0001"
+		},
+		{
+			"file": "DeviceDataFoo2.json",
+			"transformation": "Foo2-0001"
+		}
+	],
+	"destination": "merged.json",
+	"transformations": [
+		{
+			"id": "Foo1-0001",
+			"mapping": {
+				"PartnerId": "CompanyId",
+				"PartnerName": "CompanyName",
+				"Trackers": {
+					"Id": "DeviceId",
+					"Model": "DeviceName",
+					"Sensors": {
+						"isTemperature": "Name==Temperature",
+						"isHumidity": "Name==Humidty",
+						"Crumbs": {
+							"CreatedDtm": "Dtm",
+							"Value": "Value"
+						}
+					}
+				}
+			}
+		},
+		{
+			"id": "Foo2-0001",
+			"mapping": {
+				"CompanyId": "CompanyId",
+				"Company": "CompanyName",
+				"Devices": {
+					"DeviceID": "DeviceId",
+					"Name": "DeviceName",
+					"SensorData": {
+						"isTemperature": "SensorType==TEMP",
+						"isHumidity": "SensorType==HUM",
+						"DateTime": "Dtm",
+						"Value": "Value"
+					}
+				}
+			}
+		}
+	]
+}]

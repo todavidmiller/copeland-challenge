@@ -1,0 +1,92 @@
+{
+  "PartnerId": 1,
+  "PartnerName": "Foo1",
+  "Trackers": [
+    {
+      "Id": 1,
+      "Model": "ABC-100",
+      "ShipmentStartDtm": "08-17-2020 10:30:00",
+      "Sensors": [
+        {
+          "Id": 100,
+          "Name": "Temperature",
+          "Crumbs": [
+            {
+              "CreatedDtm": "08-17-2020 10:35:00",
+              "Value": 22.15
+            },
+            {
+              "CreatedDtm": "08-17-2020 10:40:00",
+              "Value": 23.15
+            },
+            {
+              "CreatedDtm": "08-17-2020 10:45:00",
+              "Value": 24.15
+            }
+          ]
+        },
+        {
+          "Id": 101,
+          "Name": "Humidty",
+          "Crumbs": [
+            {
+              "CreatedDtm": "08-17-2020 10:35:00",
+              "Value": 80.5
+            },
+            {
+              "CreatedDtm": "08-17-2020 10:40:00",
+              "Value": 81.5
+            },
+            {
+              "CreatedDtm": "08-17-2020 10:45:00",
+              "Value": 82.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Model": "ABC-200",
+      "ShipmentStartDtm": "08-18-2020 10:30:00",
+      "Sensors": [
+        {
+          "Id": 200,
+          "Name": "Temperature",
+          "Crumbs": [
+            {
+              "CreatedDtm": "08-18-2020 10:35:00",
+              "Value": 23.15
+            },
+            {
+              "CreatedDtm": "08-18-2020 10:40:00",
+              "Value": 24.15
+            },
+            {
+              "CreatedDtm": "08-18-2020 10:45:00",
+              "Value": 25.15
+            }
+          ]
+        },
+        {
+          "Id": 201,
+          "Name": "Humidty",
+          "Crumbs": [
+            {
+              "CreatedDtm": "08-18-2020 10:35:00",
+              "Value": 81.5
+            },
+            {
+              "CreatedDtm": "08-18-2020 10:40:00",
+              "Value": 82.5
+            },
+            {
+              "CreatedDtm": "08-18-2020 10:45:00",
+              "Value": 83.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

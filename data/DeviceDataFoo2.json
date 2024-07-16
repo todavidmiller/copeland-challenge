@@ -1,0 +1,80 @@
+{
+  "CompanyId": 2,
+  "Company": "Foo2",
+  "Devices": [
+    {
+      "DeviceID": 1,
+      "Name": "XYZ-100",
+      "StartDateTime": "08-18-2020 10:30:00",
+      "SensorData": [
+        {
+          "SensorType": "TEMP",
+          "DateTime": "08-18-2020 10:35:00",
+          "Value": 32.15
+        },
+        {
+          "SensorType": "TEMP",
+          "DateTime": "08-18-2020 10:40:00",
+          "Value": 33.15
+        },
+        {
+          "SensorType": "TEMP",
+          "DateTime": "08-18-2020 10:45:00",
+          "Value": 34.15
+        },
+        {
+          "SensorType": "HUM",
+          "DateTime": "08-18-2020 10:35:00",
+          "Value": 90.5
+        },
+        {
+          "SensorType": "HUM",
+          "DateTime": "08-18-2020 10:40:00",
+          "Value": 91.5
+        },
+        {
+          "SensorType": "HUM",
+          "DateTime": "08-18-2020 10:45:00",
+          "Value": 92.5
+        }
+      ]
+    },
+    {
+      "DeviceID": 2,
+      "Name": "XYZ-200",
+      "StartDateTime": "08-19-2020 10:30:00",
+      "SensorData": [
+        {
+          "SensorType": "TEMP",
+          "DateTime": "08-19-2020 10:35:00",
+          "Value": 42.15
+        },
+        {
+          "SensorType": "TEMP",
+          "DateTime": "08-19-2020 10:40:00",
+          "Value": 43.15
+        },
+        {
+          "SensorType": "TEMP",
+          "DateTime": "08-19-2020 10:45:00",
+          "Value": 44.15
+        },
+        {
+          "SensorType": "HUM",
+          "DateTime": "08-19-2020 10:35:00",
+          "Value": 91.5
+        },
+        {
+          "SensorType": "HUM",
+          "DateTime": "08-19-2020 10:40:00",
+          "Value": 92.5
+        },
+        {
+          "SensorType": "HUM",
+          "DateTime": "08-19-2020 10:45:00",
+          "Value": 93.5
+        }
+      ]
+    }
+  ]
+}
